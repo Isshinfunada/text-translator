@@ -6,7 +6,7 @@ Text Translatorは、選択したテキストを日本語に翻訳し、選択�
 ## Installation
 
 1. このリポジトリをローカルにクローンします。
-git clone https://github.com/isshin-14/Chrome---.git
+git clone https://github.com/isshin-14/text-translator.git
 
 2. Chromeブラウザで[chrome://extensions/](chrome://extensions/)にアクセスして、右上の"Developer mode"スイッチをオンにします。
 
