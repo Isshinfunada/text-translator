@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Text Translator",
+  "version": "1.0",
+  "description": "Translates selected text to Japanese using DeepL API",
+  "permissions": [
+    "contextMenus",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
