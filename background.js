@@ -1,4 +1,4 @@
-const apiKey = '2b61b9af-64c2-f3d8-5d5c-f8556501723a:fx';
+const apiKey = 'YOUR API KEY';
 
 chrome.contextMenus.create({
   id: 'translate',
